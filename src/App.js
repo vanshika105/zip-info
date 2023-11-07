@@ -9,7 +9,7 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-      dispatch(fetchZipData('110059'));
+      dispatch(fetchZipData('400093'));
   }, [dispatch]);
 
   return (
