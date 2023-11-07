@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import weatherSlice from "./weather-slice";
+import zipSlice from "./zip-slice";
 
 const store = configureStore({
-  reducer: { weather: weatherSlice.reducer },
+  reducer: { zipInfo: zipSlice.reducer },
 });
 
 export default store;
